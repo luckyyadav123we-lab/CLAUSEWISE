@@ -1,0 +1,17 @@
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+*.py[cod]
+*.tsbuildinfo
+
+# Local data and generated output
+*.sqlite3
+*.db
+.dist/
+.env.*
+!.env.example
+

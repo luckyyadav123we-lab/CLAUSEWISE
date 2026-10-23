@@ -1,0 +1,3 @@
+# Security and privacy
+
+Uploads are limited to 5 MB and are parsed in memory. The service does not persist uploaded bytes or log contract text. The latest result, including extracted contract text, is retained in browser `sessionStorage`; API analysis records remain in process memory until restart and are not isolated by user identity. Do not deploy this prototype for confidential production contracts without authentication, authorization, persistent-store security, HTTPS, request throttling, retention controls, and a reviewed threat model. Contract content is treated as data by the deterministic analyzer; the MVP does not send it to a model provider.
